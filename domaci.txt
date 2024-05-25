@@ -1,0 +1,8 @@
+domaci: napraviti templating sistem na  domacem
+	* Shop, about i glavna
+	* Bootstrap 5
+	* Stilizovati navigaciju
+	* Stilizovati footer
+	* Napraviti kontakt stranicu
+		* Kontakt forma (email, tema-subject, poruka)
+		* Neka mapa
