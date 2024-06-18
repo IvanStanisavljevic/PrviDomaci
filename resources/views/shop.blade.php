@@ -5,5 +5,13 @@
 @endsection
 
 @section("sadrzajStranice")
-    <p>Ovo je shop stranica</p>
+
+    @foreach($products as $product)
+        <div>
+            <p>{{ $product->name }}</p>
+            <p>{{ $product->description }}</p>
+        </div>
+    @endforeach
+
+
 @endsection

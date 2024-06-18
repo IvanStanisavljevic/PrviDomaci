@@ -1,7 +1,7 @@
 @extends("layout")
 
 @section("naslovStranice")
-    About
+    O nama
 @endsection
 
 @section("sadrzajStranice")

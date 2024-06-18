@@ -1,5 +1,9 @@
 @extends("layout")
 
+@section("naslovStranice")
+    Kontakt
+@endsection
+
 @section("sadrzajStranice")
     <form>
         <div class="mb-3">

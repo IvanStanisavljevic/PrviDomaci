@@ -6,3 +6,52 @@ domaci: napraviti templating sistem na  domacem
 	* Napraviti kontakt stranicu
 		* Kontakt forma (email, tema-subject, poruka)
 		* Neka mapa
+---
+
+Vezba:
+    Napraviti Kontakt Controller (Contact)
+    * php artisan make:controller ImeKontrolera
+
+    Naming conventions
+        * KontaktKontroler
+            -> Imenovanje na engleskom
+        * ContactController -> Contact
+            * app/Http/Controller/ContactController.php
+            ContactModel
+            ContactController
+            ContactMiddleware
+
+    Napraviti kontrolere:
+        - Homepage
+        - Shop
+        - Povezati ih preko web.php
+
+    ----
+    DOMACI:
+          - Uvezati novu navigaciju
+          - Napraviti migraciju za proizvode (Products)
+            Podaci: id, name, description, amount, price
+          - BONUS:
+                Napravite model za Products
+
+
+
+CreateContactTable
+        -> Create / Napravi
+            -> Contact
+
+php artisan make:migration Contact
+
+$sql = mysqli_connect();
+$id = $sql->real_escape_string($id);ph
+$sql->query("SELECT * FROM products");
+
+
+// MODELI -> ELOQUENT
+class Products {} -> tabela: "products"
+Products::all(); -> SELECT * FROM Products
+Products::where(["id" => 5]) -> SELECT * FROM Products WHERE id = 5
+
+VEZBA:
+    - Upisati X proizvoda u tabelu "products"
+    - Ispisati sve proizvode na stranici "shop"
